@@ -1,0 +1,61 @@
+.problems-container {
+    font-family: 'Unbounded', sans-serif;
+}
+
+.problems-title {
+    font-size: 2.25rem;
+    font-weight: normal;
+    height: 140px;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 8rem;
+}
+
+.problems-title-highlight {
+    color: #2563EB;
+    font-weight: bold;
+}
+
+.problems-grid {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.problem-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+
+.middle-problem {
+    position: relative;
+}
+
+.middle-problem::before {
+    content: url('./assets/breakingLine.svg');
+    position: absolute;
+    left: -1.25rem;
+}
+
+.middle-problem::after {
+    content: url('./assets/breakingLine.svg');
+    position: absolute;
+    right: -1.25rem;
+}
+
+.problem-text {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: center;
+    width: 80%;
+    line-height: 1.3;
+}

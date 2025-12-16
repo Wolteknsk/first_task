@@ -1,0 +1,53 @@
+.quoted-container {
+    margin-top: 3.75rem;
+    min-height: 22.5rem;
+    background-color: #2563EB;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.quoted-photo {
+    width: 25%;
+    position: relative;
+}
+
+.quoted-photo img {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    max-height: 23.75rem;
+    max-width: 19.75rem;
+    border-radius: 1.5rem;
+}
+
+.quoted-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 3.75rem;
+}
+
+.quoted-text {
+    text-align: start;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.quoted-author {
+    text-align: start;
+    width: 100%;
+}
+
+.quoted-name {
+    font-size: 1.875rem;
+}
+
+.quoted-title {
+    font-size: 1.25rem;
+    line-height: 1.3;
+}

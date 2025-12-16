@@ -1,0 +1,107 @@
+.examples-container {
+    font-family: 'Unbounded', sans-serif;
+}
+
+.examples-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    height: 140px;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.examples-title-highlight {
+    color: #2563EB;
+}
+
+.examples-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.example-header-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 8.75rem;
+    background-color: #2563EB;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.example-case-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-family: 'Unbounded', sans-serif;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.example-case-title {
+    color: #2563EB;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.example-case-subtitle {
+    font-size: 1.25rem;
+}
+
+.example-case-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Unbounded', sans-serif;
+    text-align: start;
+    gap: 1.5rem;
+}
+
+.example-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    height: 18.75rem;
+}
+
+.left-column {
+    width: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.left-column > div {
+    width: 80%;
+    height: 80%;
+}
+
+.middle-column {
+    width: 33%;
+    background-color: #2563EB;
+    color: white;
+}
+
+.right-column {
+    width: 33%;
+    background-color: #ffffff;
+}
+
+.example-list {
+    list-style-type: disc;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-left: 1.25rem;
+}

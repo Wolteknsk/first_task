@@ -9,6 +9,9 @@ import Recommendation from "./components/Rec/Rec";
 import What from "./components/What/What";
 import QuoteChuhutina from "./components/QuoteChuhutina/QuoteChuhutina";
 import Track from "./components/Track/Track";
+import Problems from "./components/Problems/Problems";
+import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva";
+import Examples from "./components/Examples/Examples";
 import Footer from "./components/Footer/Footer";
 function App() {
     return (
@@ -28,15 +31,12 @@ function App() {
                 <div className="content-wrapper">
                     <QuoteChuhutina />
                     <Track />
-                    {/* <Problems />
+                    <Problems />
                     <QuoteDmitrieva />
-                    <Examples /> */}
+                    <Examples />
                 </div>
             </div>
-            {/* <WhoComes />
-            <Reviews />
-            <FormatsInteractions />
-            <Contact /> */}
+            
             <Footer />
         </div>
     );
