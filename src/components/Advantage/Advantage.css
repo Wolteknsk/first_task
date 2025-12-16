@@ -1,0 +1,57 @@
+.advantages-container {
+    font-family: 'Unbounded', sans-serif;
+}
+
+.advantages-header {
+    font-size: 2rem;
+    font-weight: normal;
+    height: 140px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.advantages-grid {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.advantage-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.middle-item {
+    position: relative;
+}
+
+.middle-item::before {
+    content: url('./assets/breakingLine.svg');
+    position: absolute;
+    left: -1.25rem;
+}
+
+.middle-item::after {
+    content: url('./assets/breakingLine.svg');
+    position: absolute;
+    right: -1.25rem;
+}
+
+.advantage-text {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: center;
+    width: 80%;
+    line-height: 1.3;
+}

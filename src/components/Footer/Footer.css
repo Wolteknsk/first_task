@@ -1,0 +1,267 @@
+.footer {
+    background-color: #2563EB;
+    margin-top: 5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    order: 2;
+}
+
+.footer-logo {
+    color: white;
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav {
+    margin-bottom: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.nav-item {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 1.125rem;
+}
+
+.nav-item:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.4;
+    font-size: 0.9375rem;
+}
+
+.privacy-link {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.4;
+    text-decoration: none;
+    margin-left: 5rem;
+    font-size: 0.9375rem;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.4;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    order: 1;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.phone-number {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.call-button {
+    font-weight: 600;
+    color: #2563EB;
+    background-color: white;
+    font-size: 1.875rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    width: 100%;
+    max-width: 529px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.call-button:hover {
+    background-color: #f0f0f0;
+}
+
+.newsletter-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 528px;
+    border-radius: 0.75rem;
+    margin: 0 auto;
+}
+
+.newsletter-title {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+.email-input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+
+.custom-checkbox {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid white;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked {
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+}
+
+.checkbox-text {
+    font-size: 0.8125rem;
+    margin-left: 0.5rem;
+}
+
+.privacy-link-inline {
+    color: #d1d5db;
+    text-decoration: none;
+}
+
+.privacy-link-inline:hover {
+    text-decoration: underline;
+}
+
+.checkbox-label:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.checkbox-label:last-of-type .checkbox-text {
+    font-size: 0.75rem;
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #111F3D;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1.25rem 0;
+    border-radius: 1rem;
+    border: none;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1a2c4d;
+}
+
+@media (min-width: 640px) {
+    .footer {
+        margin-top: 6rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    
+    .contact-section {
+        padding: 2.5rem 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        align-items: stretch;
+    }
+    
+    .footer-left {
+        width: auto;
+        order: 1;
+    }
+    
+    .footer-right {
+        width: auto;
+        order: 2;
+    }
+    
+    .footer-bottom {
+        flex-direction: row;
+        align-items: center;
+    }
+}

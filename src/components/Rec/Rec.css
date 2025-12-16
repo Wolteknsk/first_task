@@ -1,0 +1,69 @@
+.rec-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Unbounded', sans-serif;
+    text-align: center;
+    gap: 1.25rem;
+    margin-top: 6rem;
+    margin-bottom: 6.25rem;
+}
+
+.rec-title {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.3;
+}
+
+.rec-subtitle {
+    color: #2563EB;
+    font-size: 1.5rem;
+}
+
+.rec-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.grid-item {
+    width: 25%;
+}
+
+.text-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.image-item {
+    border-radius: 1rem;
+}
+
+.rec-date {
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-top: 4.5625rem;
+}
+
+.rec-button {
+    background-color: #111F3D;
+    color: #FFFFFF;
+    width: 640px;
+    height: 5rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.125rem;
+}
+
+.rec-button:hover {
+    background-color: #1a2c4d;
+}

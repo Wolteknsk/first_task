@@ -1,0 +1,86 @@
+.consult-banner-container {
+    margin-top: 3.5rem;
+    margin-bottom: 9.5625rem;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.consult-banner {
+    background-color: #2563EB;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.banner-title {
+    color: #E2E8F0;
+    font-size: 4.5rem;
+    text-align: center;
+    height: 99px;
+    margin-top: 3.75rem;
+}
+
+.banner-subtitle {
+    color: #E2E8F0;
+    font-size: 2rem;
+    height: 73px;
+    text-align: center;
+}
+
+.consult-card {
+    width: 450px;
+    height: 200px;
+    background-color: #FFFFFF;
+    font-family: 'Unbounded', sans-serif;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -100px;
+    left: 415px;
+    border: 1px solid #2563EB;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    color: #2563EB;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.consult-button {
+    color: #FFFFFF;
+    background-color: #2563EB;
+    padding: 0.625rem 1.625rem;
+    border-radius: 0.75rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.consult-button:hover {
+    background-color: #1d4ed8;
+}
+
+.card-phone {
+    position: absolute;
+    right: -140px;
+    bottom: -28px;
+}
