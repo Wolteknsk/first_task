@@ -5,7 +5,7 @@ export default function Examples() {
     return (
         <div className="examples-container">
             <div className="examples-title">
-                Это позволяет <span className="examples-title-highlight">защитить бизнес</span> от частых проблем, на которых теряются время и деньги при внедрении изменений
+                Примеры результатов наших студентов и выпускников
             </div>
             <div className="examples-header">
                 <div className="example-header-item">

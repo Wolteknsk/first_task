@@ -12,7 +12,12 @@ import Track from "./components/Track/Track";
 import Problems from "./components/Problems/Problems";
 import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva";
 import Examples from "./components/Examples/Examples";
+import Variable from "./components/Variable/Variable";
+import Feedbacks from "./components/Feedbacks/Feedbacks";
+import Config from "./components/Confing/Config";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+
 function App() {
     return (
         <div className="app-container">
@@ -36,7 +41,10 @@ function App() {
                     <Examples />
                 </div>
             </div>
-            
+            <Variable />
+            <Feedbacks />
+            <Config />
+            <Contact />
             <Footer />
         </div>
     );

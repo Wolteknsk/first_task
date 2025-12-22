@@ -1,0 +1,96 @@
+.feedbacks-container {
+    width: 100vw;
+    height: 100%;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.feedbacks-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.feedbacks-content {
+    width: 85%;
+}
+
+.feedbacks-heading {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1.25rem;
+}
+
+.feedbacks-slider {
+    position: relative;
+}
+
+.feedback-card {
+    background-color: #FFFFFF;
+    height: 24rem;
+    width: 95%;
+    margin-bottom: 5rem;
+    border-radius: 1.5rem;
+}
+
+.feedback-inner {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.feedback-photo {
+    height: 90%;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.feedback-photo img {
+    object-fit: contain;
+}
+
+.feedback-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 60%;
+}
+
+.feedback-header {
+    margin-bottom: 1rem;
+}
+
+.feedback-name {
+    color: #2563EB;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.feedback-position {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.feedback-text {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.feedback-arrow-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.feedback-arrow-right {
+    position: absolute;
+    bottom: 0;
+    left: 6.25rem;
+    cursor: pointer;
+}
